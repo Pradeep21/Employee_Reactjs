@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 9vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url("/Images/pic1.jpg");
+  align-items: right;
+  justify-content: right;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.List {
+  background-color: lightblue;
+  display: block;
+  width: 20%;
+  color: #f9faf6;
+  background-image: url("/Images/pic5.jpg");
+  list-style-type: none;
+  float: left;
+}
+.Details {
+  display: block;
+  height: 400;
+  align-items: left;
+  background-image: url("/Images/pic7.jpg");
+  color: #fdfafaef;
+  float: center;
+}
