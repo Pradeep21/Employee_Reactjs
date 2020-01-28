@@ -28,6 +28,10 @@ import Yuri from '../src/Employee/Yuri';
 import Caesar from '../src/Employee/Caesar';
 import Doris from '../src/Employee/Doris';
 
+
+import { Link } from 'react-router-dom';
+
+
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
@@ -35,9 +39,12 @@ function Rout() {
     return (
         <Router>
             <div>
+                <Link to='/'> <button onClick="">G2Home </button>   </Link>
                 <section>
                     <Nav />
+
                     <Switch>
+
                         <Route path="/Tiger" component={Tiger} />
                         <Route path="/Garrett" component={Garrett} />
                         <Route path="/Ashton" component={Ashton} />
@@ -78,7 +85,4 @@ function Rout() {
         </Router>
     );
 }
-
-
-
 export default Rout;

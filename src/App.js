@@ -12,8 +12,8 @@ function App() {
       <header className="App-header">
         <img src="/Images/Infrrd.png" alt="" height="70" width="140" />
         <h4>Emplyees Details Page</h4>
-
       </header>
+
 
       <Rout />
       <Employees />
